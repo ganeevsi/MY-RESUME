@@ -1,0 +1,236 @@
+.bgimg{
+    background-image:url("back4.jpg");
+    background-size: 100% 90%;
+     background-attachment: fixed;
+     width: 100%;
+     height: 660px;
+}
+
+.hearderset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.hearderset h2{
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.hearderset h1{
+    font-size: 82px;
+    font-weight: bold; 
+    font-family: "Poppins", sans-serif;
+
+}
+ 
+.aboutme{
+    padding: 200px 0px 100px;
+  
+}
+.aboutme h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.aboutme p{
+    font-family:  'Inconsolata', monospace; 
+    margin-top: 70px;
+}
+.services{
+    padding: 100px 0px 60px;
+    height: 700px;
+}
+
+.rowsetting{
+ margin-top: 70px;
+}
+
+.services h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.services p{
+    font-family:  'Inconsolata', monospace;
+    
+}
+
+.rowsetting h2{
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+.rowsetting p{
+padding: 10px;
+color : #6c757d;
+font-family:  'Inconsolata', monospace;
+}
+
+.portfolio{
+    height: 1100px;
+    width: 100%;
+  padding: 120px 0px 60px;
+}
+ 
+.portfolio h1, .card-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.portfolio p{
+    font-family:  'Inconsolata', monospace;
+}
+
+.row{
+    margin-top: 70px;
+}
+
+
+
+.form-box {
+  width: 500px;
+    margin: auto;
+    padding: 350px 0px 60px;
+    background: #ffffff;
+   
+    height: auto;
+  }
+  
+  .form-box h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  input, textarea {
+    width: 100%;
+
+  }
+
+  label{
+    font-family:  'Inconsolata', monospace;
+  }
+
+ .nav-item{
+     padding-right: 80px;
+     padding-left: 80px;
+     font-size: 20px;
+     font-family:  'Inconsolata', monospace;
+ }
+ .logo{
+    width:100;
+     height:100;
+ }
+
+ /* //////////////////////////////////// */
+
+ @media(max-width:655px) and (min-width:600){
+
+
+
+
+
+ }
+ @media(min-width: 700px) and (max-width: 991px){
+
+  .hearderset h2{
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+    
+    
+    }
+    .hearderset h1{
+        font-size: 50px;
+        font-weight: bold; 
+        font-family: "Poppins", sans-serif;
+    
+    }
+     
+    .nav-item{
+        padding-right: 40px;
+        padding-left: 40px;
+        font-size: 17px;
+        font-family:  'Inconsolata', monospace;
+    }
+    .logo{
+        width: 70;
+         height:70;
+     } 
+     .form-box {
+        width: 400px;
+          margin: auto;
+          padding: 200px 0px 60px;
+          background: #ffffff;
+         
+          height: auto;
+        }
+  }
+
+
+
+
+
+ @media(max-width: 600px){
+    .hearderset h2{
+        font-size: 22px;
+        font-family: "Poppins", sans-serif;
+    
+    
+    }
+    .hearderset h1{
+        font-size: 42px;
+        font-weight: bold; 
+        font-family: "Poppins", sans-serif;
+    
+    }
+
+    .services{
+        
+        height: 1500px;
+    }
+    
+
+.portfolio{
+        height:3400px;
+}
+.form-box {
+    width: 350px;
+      margin: auto;
+      padding: 350px 0px 60px;
+      background: #ffffff;
+     
+      height: auto;
+    }
+
+    .logo{
+        width:50;
+         height:50;
+     }
+
+
+ }
+
+
+
+.projectdiv {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0px 20px 20px 0px;
+}
+.projectdiv img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+
+.blacklayer {
+    width: 600px;   
+    height: 400px;  
+    background-color: rgba(0, 0, 0, .3);
+    pointer-events: none;
+    transition: all 1s;
+}
+.img-thumbnail:hover{
+  transform :scale(1.2);
+}
